@@ -26,4 +26,4 @@ To build a portfolio website in order to showcase my projects as Front-End Devel
 5. Media queries for desktop
 
 ## Final result
-![Portfolio Project]()
+![Portfolio Project](https://github.com/Clelia-M/portfolio/blob/38adde67309b6fb2c2063d68b5a309bb4e20d738/Portfolio%20Screenshot.png)
