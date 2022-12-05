@@ -11,18 +11,18 @@
     --font-size: 1.3rem;
     --sans: "Raleway";
     --serif: "Playfair Display";
-  }
+}
 
 /* border box model */
 html {
     box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
+}
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
+}
 
 /* General pieces code */
 body {
@@ -33,65 +33,65 @@ body {
     color: var(--petroleum);
     font-size: var(--font-size);
     transition: 0.3s;
-  }
-  
-  h1,
-  h2,
-  h3 {
+}
+
+h1,
+h2,
+h3 {
     margin: 0;
     font-family: var(--serif);
-  }
-  
-  a {
+}
+
+a {
     color: var(--mustard);
     text-decoration: none;
     padding: 2px;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: var(--hotmust);
     text-decoration: none;
-  }
-  
-  img {
+}
+
+img {
     width: 100%;
-  }
-  
-  .button {
+}
+
+.button {
     background-color: var(--petroleum);
     padding: 0.8rem;
     border-radius: 5px;
     color: var(--white);
     text-decoration: none;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: var(--lightblue);
     color: var(--petroleum);
-  }
-  
-  /* Background Colors */
-  .section-lightblue {
+}
+
+/* Background Colors */
+.section-lightblue {
     background-color: var(--lightblue);
-  }
-  
-  .gradient {
+}
+
+.gradient {
     background: var(--petroleum);
     height: 1px;
-  }
-  
-  /* Navigation Bar */
-  nav {
+}
+
+/* Navigation Bar */
+nav {
     font-family: var(--sans);
     font-size: 80%;
     padding: 1rem;
-  }
-  
-  nav h1 a {
+}
+
+nav h1 a {
     font-family: var(--serif);
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -100,76 +100,129 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-  }
-  
-  nav li:first-child {
+}
+
+nav li:first-child {
     flex-basis: 100%;
     text-align: center;
-  }
-  
-  nav [class*="fa-"] {
+}
+
+nav [class*="fa-"] {
     font-size: 150%;
     color: var(--mustard);
-  }
-  
-  nav h1 [class*="fa-"] {
+}
+
+nav h1 [class*="fa-"] {
     font-size: 100%;
     margin-right: 1rem;
     color: var(--petroleum);
-  }
-  
-  nav [class*="fa-"]:hover {
+}
+
+nav [class*="fa-"]:hover {
     color: var(--petroleum);
-  }
-  
-  nav a {
+}
+
+nav a {
     color: var(--petroleum);
     text-decoration: none;
     display: block;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     color: var(--mustard);
-  }
-  
+}
+
 /* Header & Intro  */
-header {
-    display: grid;
-    grid-template-areas: "intro img";
-  }
-  
-  #intro {
+#intro {
     padding: 4rem 1rem 10rem 3rem;
     max-width: 1200px;
     margin: 0 auto;
-    grid-area: intro;
-  }
-  
-  #intro p {
+}
+
+#intro p {
     font-size: 1rem;
     line-height: 1.5;
-  }
-  
-  .name span {
+}
+
+.name span {
     font-family: var(--serif);
     font-size: 4rem;
     display: block;
     font-weight: 800;
-  }
-  
-  #intro h1 {
+}
+
+#intro h1 {
     font-family: var(--serif);
-  }
-  
-  #intro h2 {
+}
+
+#intro h2 {
     font-size: 2.5rem;
     font-weight: 100;
     font-family: var(--serif);
-  }
-  
-  .home_img {
+}
+
+.home_img {
+    display: none;
+}
+
+/* Project section */
+#project {
+    padding: 4rem 1rem;
+}
+
+#project h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#project h3 {
+    color: var(--mustard);
+}
+
+#project h4 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.lightblue-box {
+    background-color: var(--lightblue);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#project ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#project img {
+    margin: 2rem 0 4rem 0;
+    border-left: 1px var(--petroleum) solid;
+    border-top: 1px var(--petroleum) solid;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+/* Media Query Desktop 
+
+header {
+    display: grid;
+    grid-template-areas: "intro img";
+}
+#intro {
+grid-area: intro;
+
+.home_img {
     grid-area: img;
     width: 400px;
     margin-top: 50px;
-  }
-  
+}
+*/
