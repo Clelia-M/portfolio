@@ -134,7 +134,7 @@ nav a:hover {
 
 /* Header & Intro  */
 #intro {
-    padding: 4rem 1rem 10rem 3rem;
+    padding: 4rem 1rem 5rem 3rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -166,8 +166,8 @@ nav a:hover {
 }
 
 /* Project section */
-#project {
-    padding: 4rem 1rem;
+#project, #minor_project {
+    padding: 4rem 1rem 2rem 1rem;
 }
 
 #project h2 {
@@ -175,11 +175,11 @@ nav a:hover {
     margin-bottom: calc(2.5rem * 1.5);
 }
 
-#project h3 {
+#project h3, #minor_project h3 {
     color: var(--mustard);
 }
 
-#project h4 {
+#project h4, #minor_project h4 {
     font-size: 1rem;
     margin: 0;
 }
@@ -192,7 +192,7 @@ nav a:hover {
     line-height: 1.5;
 }
 
-#project ul {
+#project ul, #minor_project ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -211,6 +211,19 @@ nav a:hover {
     padding: 1rem;
 }
 
+.project_min-img {
+    margin: 2rem 0 1rem 0;
+    width: 400px;
+    border-left: 1px var(--petroleum) solid;
+    border-top: 1px var(--petroleum) solid;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+#minor_project article {
+    margin-top: 2rem;
+}
+
 /* Media Query Desktop 
 
 header {
@@ -224,5 +237,10 @@ grid-area: intro;
     grid-area: img;
     width: 400px;
     margin-top: 50px;
+}
+
+#minproj_articles {
+    display: grid;
+    
 }
 */
