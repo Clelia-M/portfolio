@@ -33,7 +33,7 @@ body {
     color: var(--petroleum);
     font-size: var(--font-size);
     transition: 0.3s;
-}
+  }
 
 h1,
 h2,
@@ -70,9 +70,23 @@ img {
     color: var(--petroleum);
 }
 
+.button_dark {
+    background-color: var(--petroleum);
+    padding: 0.8rem;
+    border-radius: 5px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.button_dark:hover {
+    background-color: var(--mustard);
+    color: var(--petroleum);
+}
+
 /* Background Colors */
 .section-lightblue {
     background-color: var(--lightblue);
+    
 }
 
 .gradient {
@@ -133,6 +147,17 @@ nav a:hover {
 }
 
 /* Header & Intro  */
+
+#myimg {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.home_img {
+    width: 300px;
+}
+
 #intro {
     padding: 4rem 1rem 5rem 3rem;
     max-width: 1200px;
@@ -161,12 +186,11 @@ nav a:hover {
     font-family: var(--serif);
 }
 
-.home_img {
-    display: none;
-}
+
 
 /* Project section */
-#project, #minor_project {
+#project,
+#minor_project {
     padding: 4rem 1rem 2rem 1rem;
 }
 
@@ -175,11 +199,13 @@ nav a:hover {
     margin-bottom: calc(2.5rem * 1.5);
 }
 
-#project h3, #minor_project h3 {
+#project h3,
+#minor_project h3 {
     color: var(--mustard);
 }
 
-#project h4, #minor_project h4 {
+#project h4,
+#minor_project h4 {
     font-size: 1rem;
     margin: 0;
 }
@@ -192,7 +218,8 @@ nav a:hover {
     line-height: 1.5;
 }
 
-#project ul, #minor_project ul {
+#project ul,
+#minor_project ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -224,12 +251,42 @@ nav a:hover {
     margin-top: 2rem;
 }
 
+/* Contact section */
+#contact {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#contact p {
+    padding-bottom: 1rem;
+}
+
+/*footer section*/
+footer {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2.5rem;
+}
+
 /* Media Query Desktop 
 
 header {
     display: grid;
     grid-template-areas: "intro img";
 }
+
 #intro {
 grid-area: intro;
 
