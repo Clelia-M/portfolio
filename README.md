@@ -19,11 +19,11 @@ To build a portfolio website in order to showcase my projects as Front-End Devel
 - The website was built mobile-first but if visited on desktop it adapts to the viewport thanks to the use of media queries. 
 
 ## Workflow:
-1. Design fo the website
+1. Design of the website
 2. Navigation bar + Intro
 3. Projects sections
 4. Contact me and Footer
-5. Media queries for desktop
+5. Media queries for desktop viewport
 
 ## Final result
 ![Portfolio Project](https://github.com/Clelia-M/portfolio/blob/38adde67309b6fb2c2063d68b5a309bb4e20d738/Portfolio%20Screenshot.png)
