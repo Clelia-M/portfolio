@@ -25,5 +25,8 @@ To build a portfolio website in order to showcase my projects as Front-End Devel
 4. Contact me and Footer
 5. Media queries for desktop viewport
 
+## Link to deployed Application
+[Clelia Mangione Portfolio](https://clelia-m.github.io/portfolio/)
+
 ## Final result
 ![Portfolio Project](https://github.com/Clelia-M/portfolio/blob/38adde67309b6fb2c2063d68b5a309bb4e20d738/Portfolio%20Screenshot.png)
